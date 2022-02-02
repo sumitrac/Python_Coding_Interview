@@ -24,3 +24,14 @@ print(removeEven(my_list))
 # Space: O(N)
 # could you do it with constant space? 
 
+nums = [10, 20, 1, 7]
+def removeE(lst):
+    i = 0 
+    while i < len(lst):
+        if lst[i] % 2 == 0:
+            lst.remove(list[i])
+    return lst 
+
+print(removeE(nums))
+
+
