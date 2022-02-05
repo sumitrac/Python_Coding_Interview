@@ -1,0 +1,27 @@
+# Singyly Linked List
+
+Node Class: has two components
+        - Data: is the value you want to store in the node. 
+        Think of it as the value at a specific index in a list. 
+        The data type can range from string or integer to a user-defined class.
+
+        - Pointer: The pointer refers us to the next node in the list. It is essential for connectivity.
+
+# Here’s a typical definition of a Node class:
+class Node:
+    def __init__(self, data):
+        self.data = data  # Data field
+        self.next_element = None  # Pointer to next node
+
+
+LinkedList Class: The linked list itself is a collection of Node objects which we defined above. 
+                To keep track of the list, we need a pointer to the first node in the list.
+            This is where the principle of the head node comes in. 
+
+    # The implementation of the LinkedList class is shown below:      
+    class LinkedList:
+        def __init__(self):
+            self.head_node = None  # Pointer to first node
+
+
+# Linked Lists vs. Lists
