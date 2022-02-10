@@ -82,7 +82,9 @@ root.left.right = Node(5)
 print #\n Inorder traversal of binary tree is" 
 print_InOrder(root)
 
-
+# Output:
+# Inorder traversal of binary tree is 
+# 4 2 5 1 3
 
 
 
